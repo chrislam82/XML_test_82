@@ -15,3 +15,5 @@
     </item>
 </channel>
 </rss>
+
+<!-- alternative method using URL encoding to bypass filter. Tested and works. Displays flag -->
