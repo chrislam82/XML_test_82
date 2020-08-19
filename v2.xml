@@ -8,7 +8,7 @@
   <description>description</description>
   <pubDate>pubDate</pubDate>
   <item>
-    <title>&data</title>
+    <title>&data;</title>
     <link>http://example.com</link>
     <description>description</description>
     <pubDate>pubDate</pubDate>
